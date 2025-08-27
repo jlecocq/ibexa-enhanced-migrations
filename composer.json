@@ -1,6 +1,6 @@
 {
     "name": "jlecocq/ibexa-enhanced-migrations",
-    "description": "Additional features than improve the native ibexa migrations bundle.",
+    "description": "Additional features that improve the native ibexa migrations bundle.",
     "keywords": ["Ibexa", "Migrations"],
     "license": "MIT",
     "authors": [
@@ -11,11 +11,11 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "ibexa/migrations": "*"
+        "ibexa/migrations": ">= 4.6.0"
     },
     "autoload": {
         "psr-4": {
-            "JL\\IbexaEnhancedMigrations\\": "./"
+            "JL\\IbexaEnhancedMigrations\\": "./src/bundle/"
         }
     }
 }

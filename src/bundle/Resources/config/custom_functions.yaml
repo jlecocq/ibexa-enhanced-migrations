@@ -1,0 +1,35 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    # Ibexa migration functions
+    JL\IbexaEnhancedMigrations\Migration\Function\ContentIdFromContentRemoteId:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: content_id_from_content_remote_id
+
+    JL\IbexaEnhancedMigrations\Migration\Function\LocationIdFromContentRemoteId:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: location_id_from_content_remote_id
+
+    JL\IbexaEnhancedMigrations\Migration\Function\LocationPathStringFromContentRemoteId:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: location_path_string_from_content_remote_id
+
+    JL\IbexaEnhancedMigrations\Migration\Function\ContentIdFromLocationRemoteId:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: content_id_from_location_remote_id
+
+    JL\IbexaEnhancedMigrations\Migration\Function\LocationIdFromLocationRemoteId:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: location_id_from_location_remote_id
+
+    JL\IbexaEnhancedMigrations\Migration\Function\LocationPathStringFromLocationRemoteId:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: location_path_string_from_location_remote_id
