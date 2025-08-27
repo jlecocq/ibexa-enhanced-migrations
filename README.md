@@ -5,7 +5,7 @@ This bundle provides additional migration features to the native Ibexa DXP migra
 ## Installation
 
 ```bash
-composer require jl/ibexa-enhanced-migrations
+composer require jldev/ibexa-enhanced-migrations
 ```
 
 Make sure the bundle is enabled in your `bundles.php` file.

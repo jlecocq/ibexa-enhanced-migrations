@@ -1,7 +1,7 @@
 {
-    "name": "jl/ibexa-enhanced-migrations",
+    "name": "jldev/ibexa-enhanced-migrations",
     "description": "Additional features that improve the native ibexa migrations bundle.",
-    "keywords": ["Ibexa", "Migrations"],
+    "keywords": ["php", "ibexa"],
     "license": "MIT",
     "authors": [
         {
