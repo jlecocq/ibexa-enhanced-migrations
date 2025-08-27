@@ -1,12 +1,12 @@
 {
-    "name": "jlecocq/ibexa-enhanced-migrations",
+    "name": "jl/ibexa-enhanced-migrations",
     "description": "Additional features that improve the native ibexa migrations bundle.",
     "keywords": ["Ibexa", "Migrations"],
     "license": "MIT",
     "authors": [
         {
             "name": "Jérôme Lecocq",
-            "email": "jlecocq.freelance@gmail.com"
+            "email": "jerome.lecocq.freelance@ik.me"
         }
     ],
     "require": {
