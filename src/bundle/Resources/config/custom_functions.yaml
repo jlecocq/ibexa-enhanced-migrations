@@ -33,3 +33,8 @@ services:
         tags:
             -   name: 'ibexa.migrations.template.expression_language.function'
                 function: location_path_string_from_location_remote_id
+
+    JL\IbexaEnhancedMigrations\Migration\Function\SectionIdFromSectionIdentifier:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: section_id_from_section_identifier
