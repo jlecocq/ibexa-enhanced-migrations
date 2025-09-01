@@ -1,11 +1,12 @@
 # Ibexa enhanced migrations
 
 This bundle provides additional migration features to the native Ibexa DXP migrations bundle (available in ibexa content, ibexa experience and ibexa commerce).
+It is compatible with Ibexa 4.x and 5.x. 
 
 ## Installation
 
 ```bash
-composer require jldev/ibexa-enhanced-migrations
+composer require jldev/ibexa-enhanced-migrations:^1.0.0
 ```
 
 Make sure the bundle is enabled in your `config/bundles.php` file:
