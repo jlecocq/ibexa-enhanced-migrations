@@ -38,3 +38,33 @@ services:
         tags:
             -   name: 'ibexa.migrations.template.expression_language.function'
                 function: section_id_from_section_identifier
+
+    JL\IbexaEnhancedMigrations\Migration\Function\ContentIdFromUserLogin:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: content_id_from_user_login
+
+    JL\IbexaEnhancedMigrations\Migration\Function\ContentRemoteIdFromUserLogin:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: content_remote_id_from_user_login
+
+    JL\IbexaEnhancedMigrations\Migration\Function\LocationIdFromUserLogin:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: location_id_from_user_login
+
+    JL\IbexaEnhancedMigrations\Migration\Function\LocationRemoteIdFromUserLogin:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: location_remote_id_from_user_login
+
+    JL\IbexaEnhancedMigrations\Migration\Function\LocationRemoteIdFromContentRemoteId:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: location_remote_id_from_content_remote_id
+
+    JL\IbexaEnhancedMigrations\Migration\Function\ContentRemoteIdFromLocationRemoteId:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: content_remote_id_from_location_remote_id
