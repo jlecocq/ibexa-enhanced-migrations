@@ -20,7 +20,7 @@ class ContentIdFromContentName
 
         $result = $this->repository->getSearchService()->findContent($query);
         if ($result->totalCount !== 1) {
-            throw new \Exception("Migration function ContentIdFromContentName muse return only 1 result for content name '$contentName'.");
+            throw new \Exception("Migration function ContentIdFromContentName must return only 1 result for content name '$contentName'.");
         }
 
         return $result->searchHits[0]->valueObject->getId();
