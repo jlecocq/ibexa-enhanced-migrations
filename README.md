@@ -32,6 +32,7 @@ Custom functions that can be used in migration files ([official documentation](h
 * `location_remote_id_from_user_login("login")` : load a user by id and return its main location remote id
 * `location_remote_id_from_content_remote_id("remote_id")` : load a content by remote id and return its main location remote id
 * `content_remote_id_from_location_remote_id("remote_id")` : load a location by remote id and return its content remote id
+* `content_id_from_content_name("name")` : load a content by name and return its id (triggers an exception if name is not unique)
 
 Example of usage in a migration file:
 

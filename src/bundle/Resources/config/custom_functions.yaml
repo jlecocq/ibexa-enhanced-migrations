@@ -68,3 +68,8 @@ services:
         tags:
             -   name: 'ibexa.migrations.template.expression_language.function'
                 function: content_remote_id_from_location_remote_id
+
+    JL\IbexaEnhancedMigrations\Migration\Function\ContentIdFromContentName:
+        tags:
+            -   name: 'ibexa.migrations.template.expression_language.function'
+                function: content_id_from_content_name
